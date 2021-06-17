@@ -1,0 +1,51 @@
+<!DOCTYPE hml>
+<html>
+	<head>
+		<title>Registration</title> 
+		<link rel="stylesheet" type="text/css" href="rn.css"> 
+		<script src="rn.js"></script>	
+	</head>
+	<body>
+		<div class="box">
+			<h1>REGISTRATION</h1>
+			<p id="error"></p>
+			<form name="pra" method="post" action="insert.php" onsubmit="return(ncky())">
+				<div class="inputbox">
+					<input type="text" name="fname" required="" autocomplete="off">
+					<label>First Name</label>
+				</div>
+			 	<div class="inputbox">
+					<input type="text" name="mname" value=" " required="" autocomplete="off">
+					<label>Middle Name</label>
+				</div>
+				<div class="inputbox">
+					<input type="text" name="lname" required="" autocomplete="off">
+					<label>Last Name</label>
+				</div>
+				<div class="inputbox">
+					<input type="Number" name="phno" required="" autocomplete="off">
+					<label>Phone No</label>
+				</div>
+				<div class="inputbox">
+					<input type="text" name="email" required="" autocomplete="off">
+					<label>Email Id</label>
+				</div>
+				<div class="inputbox">
+					<input type="text" name="uid" required="" autocomplete="off">
+					<label>User Id</label>
+				</div>
+								<div class="inputbox">
+					<input type="password" name="pass" required="" autocomplete="off">
+					<label>Password</label>
+				</div>
+				<div class="inputbox">
+					<input type="password" name="cpass" required="" autocomplete="off">
+					<label>Confirm Password</label>
+				</div>
+				<input type="submit">
+			</form>
+		</div>
+		<a href="home.html" target="_self" class="home" style="float:right">
+		<img src="hom.png" alt="home" class="img" width="50px" height="50px"></a>
+	</body>
+</html> 

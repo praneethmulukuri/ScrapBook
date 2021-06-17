@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Gallery</title>
+		<link rel="stylesheet" type="text/css" href="gallery.css">
+	</head>	
+	<body>
+		<section class="gallery-links">
+			<div class="wrapper">
+				<h2>Gallery</h2>
+				<div class="gallery-container">
+					<a href="#">
+						<div></div>
+						<h3>This is a title</h3>
+						<p>This is a paragraph</p>
+					</a>
+					<a href="#">
+						<div></div>
+						<h3>This is a title</h3>
+						<p>This is a paragraph</p>
+					</a>
+					<a href="#">
+						<div></div>
+						<h3>This is a title</h3>
+						<p>This is a paragraph</p>
+					</a>
+					<a href="#">
+						<div></div>
+						<h3>This is a title</h3>
+						<p>This is a paragraph</p>
+					</a>
+					<a href="#">
+						<div></div>
+						<h3>This is a title</h3>
+						<p>This is a paragraph</p>
+					</a>
+				</div><br><br>
+				<div class="gallery-upload">
+					<h2>UPLOAD</h2>
+					<form action="insgl.php" method="post" enctype="multipart/form-data">
+						<div class="inputbox">
+							<input type="text" name="filename" required="">
+							<label>Filename</label>
+						</div>
+						<div class="inputbox">
+							<input type="text" name="filetitle" required="">
+							<label>File title</label>
+						</div>
+						<div class="inputbox">
+							<input type="text" name="filedesc" required="">
+							<label>File description</label>
+						</div>
+						<div class="file">
+							<input type="file" name="file" required="">
+						</div>
+						<input type="submit" name="submit" value="Upload">
+					</form>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
